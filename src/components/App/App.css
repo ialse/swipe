@@ -1,0 +1,10 @@
+.page {
+  width: 200vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.page_move {
+  transition: left 1s ease-in-out;
+}
