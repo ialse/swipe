@@ -2,7 +2,11 @@ import { useState } from 'react';
 import './Text.css';
 
 function Text({ text }) {
-  return <p className="slide-right__text">{text}</p>;
+  return (
+    <div className="slide-right__wrapper">
+      <span className="slide-right__text">{text}</span>
+    </div>
+  );
 }
 
 export default Text;

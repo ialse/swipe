@@ -1,5 +1,20 @@
-.slide-right__text {
-  margin: 10px;
+.slide-right__wrapper {
+  margin: 20px;
   font-size: 16px;
   overflow-wrap: break-word;
+}
+
+.slide-right__text {
+  background: linear-gradient(#000, #000) left no-repeat, rgba(0, 0, 0, 0);
+  background-size: 0% 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: loading 3s forwards linear;
+}
+
+@keyframes loading {
+  100% {
+    background-size: 100% 100%;
+  }
 }
